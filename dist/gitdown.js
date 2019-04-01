@@ -16,7 +16,7 @@ const Deadlink = require('deadlink');
 
 const URLExtractor = require('url-extractor');
 
-const MarkdownContents = require('./helpers/markdown-contents.js');
+const MarkdownContents = require('./markdown-contents.js');
 
 const StackTrace = require('stack-trace');
 

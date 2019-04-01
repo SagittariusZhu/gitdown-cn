@@ -2,7 +2,7 @@
 
 const helper = {};
 
-const MarkdownContents = require('./markdown-contents.js');
+const MarkdownContents = require('../markdown-contents.js');
 
 helper.compile = (config = {}, context) => {
   let tree;
