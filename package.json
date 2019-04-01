@@ -1,0 +1,26 @@
+{
+  "keywords": [
+    "github",
+    "markdown",
+    "table of contents",
+    "toc",
+	"chinese",
+    "include",
+    "variable",
+    "transclusion"
+  ],
+  "license": "BSD-3-Clause",
+  "main": "./dist/index.js",
+  "name": "gitdown-cn",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SagittariusZhu/gitdown-cn.git"
+  },
+  "scripts": {
+    "build": "babel ./src --out-dir ./dist --copy-files",
+    "create-readme": "babel-node ./src/bin/index.js ./.README/README.md --output-file ./README.md",
+    "lint": "eslint ./src ./tests",
+    "test": "mocha ./tests/**/*.js --compilers js:@babel/register"
+  },
+  "version": "2.5.7"
+}
